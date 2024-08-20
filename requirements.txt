@@ -1,0 +1,12 @@
+asgiref==3.8.1
+Django==5.1
+django-filter==24.3
+djangorestframework==3.15.2
+environs==11.0.0
+geographiclib==2.0
+geopy==2.4.1
+marshmallow==3.21.3
+mysqlclient==2.2.4
+packaging==24.1
+python-dotenv==1.0.1
+sqlparse==0.5.1
