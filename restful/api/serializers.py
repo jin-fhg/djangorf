@@ -50,4 +50,3 @@ class RideSerializer(serializers.ModelSerializer):
 
 
 
-
