@@ -1,4 +1,4 @@
-##ENV Preparation
+## ENV Preparation
 1. Create a python virtual environment by going to the project folder and type: python<version> -m venv <virtual-environment-name>
 2. install the libraries found in the requirements.txt file using: pip install -r requirements.txt 
 3. Open the djangorf/restful/restful/settings.py file and replace the database credentials according to your preference
@@ -10,9 +10,10 @@
 8. Start the project by going to djangorf/restful/ and type: python manage.py runserver
 
 
+## Issue encountered
 I had an issue doing the OrderFilter for distance, since this is not a model field. I cannot include it to the same viewset for Ride without adding it as one of the Model Field.
 
-##Bonus SQL Command
+## Bonus SQL Command
 
 WITH RideDurations AS (
   SELECT
